@@ -1,0 +1,26 @@
+h1
+{
+  color: black;
+  font-family: cursive;
+}
+
+h2
+{
+  color: red;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+h3
+{
+  color: blue;
+  font-family: inherit;
+  font-size: 24px;
+}
+
+p
+{
+  color: #E40105;
+  font-family: serif;
+  font-size: 24px;
+}
