@@ -1,0 +1,33 @@
+body
+{
+  background-color: white;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+#titulo
+{
+  background-color: brown;
+  text-align: center;
+  color: white;
+
+}
+
+#sub-titulos
+{
+  background-color: brown;
+  text-align: center;
+  color: white;
+}
+
+.datos
+{
+  background-color: yellow;
+}
+
+em + #alinear-texto
+{
+  text-align: right;
+}
