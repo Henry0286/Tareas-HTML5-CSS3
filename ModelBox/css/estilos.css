@@ -1,0 +1,74 @@
+article[class^='caja']
+{
+  width: 400;
+  height: 200px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 20px;
+  text-align: justify;
+}
+
+.caja1
+{
+  color: blue;
+  font-family: cursive;
+}
+
+.caja2
+{
+  color: red;
+  font-family: helvetica;
+}
+
+.caja3
+{
+  color: green;
+  font-family: Arial;
+}
+
+.caja1:hover
+{
+  background-color: #DDD;
+}
+.caja2:hover
+{
+  background-color: #CCC;
+}
+.caja3:hover
+{
+  background-color: #AAA;
+}
+
+.caja1:checked
+{
+  color: yellow;
+}
+
+a[href^="#"]
+{
+  color: red;
+  text-decoration: none;
+}
+
+a[href^="#"]:hover
+{
+  background-color: #DDD;
+  color: green;
+  text-decoration: underline;
+}
+
+a:visited
+{
+  color: purple;
+}
+
+a[href^="#"]:active
+{
+  color: yellow;
+}
+#pie
+{
+  text-align: center;
+  border-top: 1px solid black;
+  padding: 10px;
+}

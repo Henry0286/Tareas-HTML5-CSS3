@@ -1,6 +1,6 @@
 body
 {
-  background-color: gray;
+  background-color: aliceblue;
 }
 footer
 {
@@ -10,7 +10,8 @@ img
 {
   border-radius: 10px
 }
-#indice{
+#indice
+{
 
 }
 #Contenedor{
@@ -29,6 +30,7 @@ img
 }
 a[href^='#']{
   color: red;
+
 }
 img[src$='.svg']{
   border-radius: 20px;
@@ -51,4 +53,36 @@ article> h2 {
 }
 ul li {
   list-style-type: circle;
+}
+
+a:hover
+{
+  background-color: blue;
+}
+
+a:visited
+{
+  color: purple;
+}
+a:active
+{
+  color: lime;
+}
+
+h2
+{
+  color: blue;
+}
+h3
+{
+  color: green;
+}
+b
+{
+  font-style: oblique;
+  color: orange;
+}
+.foot
+{
+  text-align: center;
 }
